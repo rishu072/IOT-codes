@@ -221,26 +221,6 @@ Verify ✓
 Upload →
 ```
 
----
-
-
-# 🐍 Contribution Snake
-
-```markdown
-Create:
-.github/workflows/snake.yml
-```
-
-After enabling GitHub Actions:
-
-```html
-<p align="center">
-<img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake.svg">
-</p>
-```
-
----
-
 # 🔮 Future Enhancements
 
 - ESP8266 Integration
