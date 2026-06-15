@@ -4,7 +4,6 @@
 
 ![Arduino](https://img.shields.io/badge/Arduino-UNO-blue?style=for-the-badge&logo=arduino)
 ![IoT](https://img.shields.io/badge/IoT-Projects-green?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
 ---
 
