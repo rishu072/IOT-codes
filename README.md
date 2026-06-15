@@ -1,25 +1,61 @@
-# 🚀 IOT-Codes
+<div align="center">
 
-> A collection of Arduino UNO based IoT projects, sensor integrations, and smart automation experiments.
+# 🚀 IOT-CODES
 
-![Arduino](https://img.shields.io/badge/Arduino-UNO-blue?style=for-the-badge&logo=arduino)
-![IoT](https://img.shields.io/badge/IoT-Projects-green?style=for-the-badge)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9FF,100:92FE9D&height=250&section=header&text=IOT-CODES&fontSize=60&fontAlignY=35&animation=fadeIn"/>
+
+<p>
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=28&pause=1000&color=00C2FF&center=true&vCenter=true&width=900&lines=Arduino+UNO+Projects;IoT+Development+Repository;Sensors+%7C+Automation+%7C+Embedded+Systems;Building+Smart+Connected+Solutions"/>
+</p>
+
+<p>
+<img src="https://img.shields.io/github/stars/YOUR_USERNAME/IOT-Codes?style=for-the-badge">
+<img src="https://img.shields.io/github/forks/YOUR_USERNAME/IOT-Codes?style=for-the-badge">
+<img src="https://img.shields.io/github/license/YOUR_USERNAME/IOT-Codes?style=for-the-badge">
+<img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&label=Repository+Views&style=for-the-badge">
+</p>
+
+</div>
 
 ---
 
-## 📖 About
+# 🤖 About Project
 
-This repository contains Arduino UNO projects developed for learning and experimenting with IoT technologies, sensors, and automation systems.
+IOT-Codes is a collection of Arduino UNO based IoT projects designed for learning sensor interfacing, embedded systems, automation, and smart device development.
 
-The projects demonstrate:
+The repository contains practical implementations of:
 
-- 🌡️ Environmental Monitoring
-- 💧 Water Detection Systems
-- 🌧️ Rain Sensing Applications
+- 🌡 Temperature Monitoring
 - 📏 Distance Measurement
+- 🌧 Rain Detection
+- 💧 Water Level Detection
 - 🔌 Sensor Interfacing
-- 📡 Smart Device Communication
-- 🤖 Embedded Systems Programming
+- 🤖 Embedded Systems
+- 📡 IoT Fundamentals
+
+---
+
+# 🎯 Project Goals
+
+✅ Learn Arduino Programming
+
+✅ Understand Sensor Communication
+
+✅ Build Real-Time Monitoring Systems
+
+✅ Explore Embedded Development
+
+✅ Prepare for Advanced IoT Projects
+
+---
+
+# ⚙️ Tech Stack
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=arduino,c,cpp,git,github,vscode"/>
+
+</div>
 
 ---
 
@@ -27,26 +63,16 @@ The projects demonstrate:
 
 ## Arduino UNO
 
-The Arduino UNO is one of the most popular microcontroller boards used for:
-
-- Sensor Integration
-- Home Automation
-- Robotics
-- IoT Prototyping
-- Real-Time Monitoring Systems
-
-### Specifications
-
-| Feature | Details |
-|----------|----------|
+| Feature | Specification |
+|----------|--------------|
 | Microcontroller | ATmega328P |
 | Operating Voltage | 5V |
-| Input Voltage | 7V - 12V |
 | Digital I/O Pins | 14 |
 | PWM Pins | 6 |
-| Analog Inputs | 6 |
+| Analog Input Pins | 6 |
 | Flash Memory | 32 KB |
 | SRAM | 2 KB |
+| EEPROM | 1 KB |
 | Clock Speed | 16 MHz |
 
 ---
@@ -54,142 +80,141 @@ The Arduino UNO is one of the most popular microcontroller boards used for:
 # 📂 Repository Structure
 
 ```text
-IOT-Codes/
+IOT-Codes
 │
-├── Arduino_codeTEMPERACHER/
+├── Arduino_codeTEMPERACHER
 │   └── Temperature Monitoring System
 │
-├── sketch_feb4a(distance)/
-│   └── Ultrasonic Distance Measurement
+├── sketch_feb4a(distance)
+│   └── Ultrasonic Distance Sensor
 │
-├── sketch_feb24a(rain)/
+├── sketch_feb24a(rain)
 │   └── Rain Detection System
 │
-├── sketch_jan19a(temperature)/
+├── sketch_jan19a(temperature)
 │   └── Temperature Sensor Project
 │
-├── sketch_jan27a(water)/
-│   └── Water Level Detection System
+├── sketch_jan27a(water)
+│   └── Water Level Detection
 │
-└── UNO_PROJECT/
+└── UNO_PROJECT
     └── Arduino UNO Experiments
 ```
 
 ---
 
-# 📋 Projects Included
+# 🚀 Projects Showcase
 
-## 🌡️ Temperature Monitoring System
-
-Measure environmental temperature using compatible temperature sensors.
+## 🌡 Temperature Monitoring System
 
 ### Features
-- Real-time temperature readings
-- Serial Monitor output
+
+- Real-time temperature measurement
+- Serial monitor output
 - Sensor calibration support
+- Continuous monitoring
+
+### Components
+
+- Arduino UNO
+- Temperature Sensor
+- Jumper Wires
 
 ---
 
 ## 📏 Distance Measurement System
 
-Uses an ultrasonic sensor to calculate object distance.
-
 ### Features
-- Accurate distance detection
+
+- Accurate object distance detection
 - Obstacle sensing
-- Real-time monitoring
+- Real-time measurements
 
 ### Components
+
 - Arduino UNO
 - HC-SR04 Ultrasonic Sensor
-- Jumper Wires
 
 ---
 
-## 🌧️ Rain Detection System
-
-Detects rainwater using a rain sensor module.
+## 🌧 Rain Detection System
 
 ### Features
-- Rain detection alerts
-- Analog and Digital readings
-- Weather monitoring applications
+
+- Rain sensing
+- Weather monitoring
+- Alert generation
 
 ### Components
+
 - Arduino UNO
 - Rain Sensor Module
-- LEDs/Buzzer (Optional)
 
 ---
 
 ## 💧 Water Level Detection System
 
-Monitors water presence and water levels.
-
 ### Features
-- Water level sensing
-- Tank monitoring
-- Smart irrigation applications
+
+- Water presence detection
+- Water level monitoring
+- Tank management support
 
 ### Components
+
 - Arduino UNO
 - Water Level Sensor
-- Jumper Wires
 
 ---
 
-## 🔬 Arduino UNO Practice Projects
+# 🔌 Sensors Used
 
-Collection of beginner-friendly experiments and sensor testing programs.
+| Sensor | Application |
+|----------|-------------|
+| Temperature Sensor | Temperature Monitoring |
+| HC-SR04 | Distance Measurement |
+| Rain Sensor | Rain Detection |
+| Water Sensor | Water Level Detection |
 
-Includes:
+---
 
-- LED Blinking
-- Sensor Testing
+# 📚 Learning Outcomes
+
+Through these projects you will learn:
+
+- Arduino IDE
+- C/C++ Programming
+- Embedded Systems
+- Sensor Interfacing
 - Serial Communication
-- Analog Readings
-- Digital Outputs
+- IoT Fundamentals
+- Hardware Integration
 
 ---
 
-# ⚙️ Software Requirements
+# 💻 Getting Started
 
-### Arduino IDE
-
-Download Arduino IDE:
-
-https://www.arduino.cc/en/software
-
-### Supported Version
-
-- Arduino IDE 2.x+
-- Windows
-- Linux
-- macOS
-
----
-
-# 🚀 Getting Started
-
-### 1. Clone Repository
+## Clone Repository
 
 ```bash
-git clone https://github.com/your-username/IOT-Codes.git
+git clone https://github.com/YOUR_USERNAME/IOT-Codes.git
 ```
 
-### 2. Open Arduino IDE
+## Open Project
 
-Open the desired project folder and load the `.ino` file.
+```bash
+Arduino IDE → Open Project Folder
+```
 
-### 3. Connect Arduino UNO
+## Select Board
 
-- Connect via USB
-- Select Board: Arduino UNO
-- Select COM Port
+```text
+Tools
+ └── Board
+      └── Arduino UNO
+```
 
-### 4. Upload Code
-
-Click:
+## Upload
 
 ```text
 Verify ✓
@@ -198,75 +223,96 @@ Upload →
 
 ---
 
-# 🔌 Sensor Modules Used
+# 📊 GitHub Analytics
 
-| Sensor | Purpose |
-|----------|----------|
-| Temperature Sensor | Temperature Monitoring |
-| HC-SR04 | Distance Measurement |
-| Rain Sensor | Rain Detection |
-| Water Level Sensor | Water Detection |
+<div align="center">
 
----
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight"/>
 
-# 🎯 Learning Outcomes
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight"/>
 
-Through these projects, you will learn:
-
-- Arduino Programming
-- Sensor Interfacing
-- Serial Communication
-- Embedded Systems Basics
-- IoT Development Fundamentals
-- Hardware-Software Integration
+</div>
 
 ---
 
-# 📈 Future Enhancements
+# 📈 Activity Graph
 
-- Wi-Fi Integration (ESP8266)
-- ESP32 Based Projects
-- IoT Dashboard
-- Cloud Connectivity
-- Mobile App Monitoring
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=tokyo-night"/>
+
+</div>
+
+---
+
+# 🐍 Contribution Snake
+
+```markdown
+Create:
+.github/workflows/snake.yml
+```
+
+After enabling GitHub Actions:
+
+```html
+<p align="center">
+<img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake.svg">
+</p>
+```
+
+---
+
+# 🔮 Future Enhancements
+
+- ESP8266 Integration
+- ESP32 Projects
+- WiFi Monitoring
+- Cloud Dashboard
 - MQTT Communication
+- Mobile App Control
+- Smart Home Automation
 
 ---
 
 # 🤝 Contributing
 
-Contributions, suggestions, and improvements are welcome.
+Contributions are welcome.
 
 1. Fork Repository
-2. Create Feature Branch
+2. Create Branch
 3. Commit Changes
-4. Submit Pull Request
+4. Push Changes
+5. Open Pull Request
 
 ---
 
 # ⭐ Support
 
-If you found this repository useful:
+If this repository helps you:
 
-⭐ Star this repository
+⭐ Star the repository
 
-🍴 Fork this repository
+🍴 Fork the repository
 
-📢 Share with other developers
+📢 Share with others
 
 ---
 
 # 👨‍💻 Author
 
-**Rishu Rajan**
+## Rishu Rajan
 
-Passionate about:
-- IoT Development
-- Embedded Systems
-- Arduino Projects
-- Full Stack Development
-- AI Applications
+- 💻 Full Stack Developer
+- 🤖 IoT Enthusiast
+- 📡 Embedded Systems Learner
+- 🚀 Open Source Contributor
 
 ---
 
-## 🔥 "Turning Ideas into Smart Connected Solutions."
+<div align="center">
+
+## 🔥 Building Smart Connected Solutions
+
+### Made with ❤️ using Arduino UNO
+
+</div>
