@@ -1,7 +1,5 @@
 <div align="center">
 
-# 🚀 IOT-CODES
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9FF,100:92FE9D&height=250&section=header&text=IOT-CODES&fontSize=60&fontAlignY=35&animation=fadeIn"/>
 
 <p>
